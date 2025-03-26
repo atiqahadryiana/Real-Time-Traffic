@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e50f6fd5b2a7eb6ff6da41247122f87e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e50f6fd5b2a7eb6ff6da41247122f87e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e50f6fd5b2a7eb6ff6da41247122f87e = L.map(
+                "map_e50f6fd5b2a7eb6ff6da41247122f87e",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b3c6a79e9a60eda9161a64812fe6e27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7b3c6a79e9a60eda9161a64812fe6e27.addTo(map_e50f6fd5b2a7eb6ff6da41247122f87e);
+        
+    
+            var marker_c9243d8e2188b0d5c547c81457c3c794 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_e50f6fd5b2a7eb6ff6da41247122f87e);
+        
+    
+            var icon_e94fd0b14131199564801790a93db6da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58ae0c554d15abb6bd49ffa65e5e0014 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_951e8b3fe65abc40b9fada60cacbd12a = $(`<div id="html_951e8b3fe65abc40b9fada60cacbd12a" style="width: 100.0%; height: 100.0%;">Traffic Signal</div>`)[0];
+                popup_58ae0c554d15abb6bd49ffa65e5e0014.setContent(html_951e8b3fe65abc40b9fada60cacbd12a);
+            
+        
+
+        marker_c9243d8e2188b0d5c547c81457c3c794.bindPopup(popup_58ae0c554d15abb6bd49ffa65e5e0014)
+        ;
+
+        
+    
+    
+                marker_c9243d8e2188b0d5c547c81457c3c794.setIcon(icon_e94fd0b14131199564801790a93db6da);
+            
+</script>
+</html>
