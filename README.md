@@ -1,4 +1,3 @@
-🚦 Real-Time Traffic Monitoring System 🌍
 📌 Project Overview
 This Flask-based web application provides real-time updates on road conditions, live traffic status, and alternative routes. Using the Google Maps API, the system allows users to visualize live traffic conditions and find the best possible routes to avoid congestion.
 
