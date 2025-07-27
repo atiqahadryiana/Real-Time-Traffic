@@ -19,5 +19,7 @@ Deployment: Vercel, GitHub Integration
 
 🚀 How It Works
 1️⃣ Enter your starting location and destination
+
 2️⃣ View live traffic data and suggested alternative routes
+
 3️⃣ Enjoy real-time updates with a modern and interactive UI
